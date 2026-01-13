@@ -1,0 +1,77 @@
+/* ============================= */
+/*          GLOBAL STYLE         */
+/* ============================= */
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* ============================= */
+/*          TOPBAR STYLE         */
+/* ============================= */
+.topbar {
+    background-color: #1E1E2F;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.topbar .nav-link {
+    color: white !important;
+    margin-right: 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.topbar .nav-link:hover {
+    color: #79CADB !important;
+    text-decoration: underline;
+}
+
+/* ============================= */
+/*         GRAPH CARDS           */
+/* ============================= */
+.js-plotly-plot {
+    background: #1C1C2B !important;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    flex: 1;
+    min-width: 280px;
+    height: 300px !important;
+}
+
+/* ============================= */
+/*          LOGIN PAGE           */
+/* ============================= */
+#login-username,
+#login-password {
+    background-color: #1C1C2B;
+    color: white;
+    border: 1px solid #444;
+}
+
+#login-username:focus,
+#login-password:focus {
+    border-color: #79CADB;
+    box-shadow: 0 0 5px #79CADB;
+}
+
+#login-message {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ============================= */
+/*          BUTTON STYLE         */
+/* ============================= */
+button, .btn {
+    border-radius: 10px !important;
+    font-weight: bold !important;
+}

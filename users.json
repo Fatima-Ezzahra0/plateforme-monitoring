@@ -1,0 +1,12 @@
+{
+    "users": {
+        "admin": {
+            "password": "admin",
+            "approved": true
+        },
+        "FATIMA-EZZAHRA": {
+            "password": "1234",
+            "approved": false
+        }
+    }
+}
